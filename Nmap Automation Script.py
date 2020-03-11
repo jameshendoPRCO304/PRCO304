@@ -33,7 +33,7 @@ x = (iplist[0] + '.' + iplist[1] + '.' + iplist[2] + '.' + iplist[3] + iplist[4]
 
 # Function to run Nmap scan
 def my_scan():
-    os.system(r"nmap -oX C:\Users\james\Desktop\test1.xml " + x)
+    os.system(r"nmap -T4 -sV -oX C:\\\\Users\\\\james\\\\Desktop\\\\test7.xml --no-stylesheet 192.168.189.0/24" + x)
 
 
 print(x)
